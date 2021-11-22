@@ -78,8 +78,7 @@ jobs:
           CONFIG_TARGET_ramips_mt7621_DEVICE_phicomm_k2p=y
           CONFIG_TARGET_IMAGES_GZIP=y
           CONFIG_PACKAGE_kmod-mt7615d=y
-          CONFIG_PACKAGE_kmod-mt7615d_dbdc=n
-          CONFIG_PACKAGE_luci-app-mtwifi=y
+          CONFIG_PACKAGE_kmod-mt7615d_dbdc=y
           CONFIG_PACKAGE_dnsmasq_full_dhcpv6=y
           CONFIG_PACKAGE_ipv6helper=y
           CONFIG_PACKAGE_luci-app-zerotier=y
@@ -99,10 +98,8 @@ jobs:
           CONFIG_PACKAGE_htop=y
           CONFIG_PACKAGE_luci-app-vsftpd=n
           CONFIG_PACKAGE_luci-theme-argon=y
-          CONFIG_PACKAGE_luci-theme-material=y
-          CONFIG_PACKAGE_luci-app-nlbwmon=n
+          CONFIG_PACKAGE_luci-app-nlbwmon=y
           CONFIG_PACKAGE_luci-app-aliyundrive-webdav=y
-          CONFIG_PACKAGE_luci-app-wrtbwmon=y
           EOF
 
           #
