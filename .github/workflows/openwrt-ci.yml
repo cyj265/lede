@@ -79,13 +79,14 @@ jobs:
           CONFIG_TARGET_IMAGES_GZIP=y
           CONFIG_PACKAGE_kmod-mt7615d=y
           CONFIG_PACKAGE_kmod-mt7615d_dbdc=y
+          CONFIG_PACKAGE_luci-app-mtwifi
           CONFIG_PACKAGE_dnsmasq_full_dhcpv6=y
           CONFIG_PACKAGE_ipv6helper=y
           CONFIG_PACKAGE_luci-app-zerotier=y
-          CONFIG_PACKAGE_luci-app-ddns=n
-          CONFIG_PACKAGE_luci-app-wol=n
+          # CONFIG_PACKAGE_luci-app-ddns=y
+          # CONFIG_PACKAGE_luci-app-wol=y
           CONFIG_PACKAGE_luci-app-upnp=y
-          CONFIG_PACKAGE_luci-app-unblockmusic=n
+          # CONFIG_PACKAGE_luci-app-unblockmusic=y
           CONFIG_PACKAGE_luci-app-accesscontrol=y
           CONFIG_PACKAGE_luci-app-arpbind=y
           CONFIG_PACKAGE_luci-app-autoreboot=y
@@ -96,11 +97,12 @@ jobs:
           CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_OFFLOADING=y
           CONFIG_PACKAGE_luci-app-vlmcsd=y
           CONFIG_PACKAGE_htop=y
-          CONFIG_PACKAGE_luci-app-vsftpd=n
+          # CONFIG_PACKAGE_luci-app-vsftpd=y
           CONFIG_PACKAGE_luci-theme-argon=y
           CONFIG_PACKAGE_luci-theme-material=y
-          CONFIG_PACKAGE_luci-app-nlbwmon=y
+          # CONFIG_PACKAGE_luci-app-nlbwmon=y
           CONFIG_PACKAGE_luci-app-aliyundrive-webdav=y
+          CONFIG_PACKAGE_luci-app-wrtbwmon=y
           EOF
 
           #
