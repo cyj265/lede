@@ -7,16 +7,16 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: K2P
+name: OpenWrt-CI
 
 on:
-  repository_dispatch:
-  workflow_dispatch:
-    inputs:
-      ssh:
-        description: 'SSH connection to Actions'
-        required: false
-        default: 'false'
+  push:
+    branches: 
+      - master
+  # schedule:
+  #   - cron: 0 20 * * *
+  release:
+    types: [published]
 
 jobs:
 
